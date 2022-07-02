@@ -1,0 +1,176 @@
+body {
+    background-color: #F9F4E8;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 38px;
+}
+#logo {
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.center:hover {
+    opacity: 2;
+}
+
+
+.centerend {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+.centerend, p {
+    font-weight: lighter;
+}
+.hiring {
+    background: linear-gradient(#EAB450, #EA5972);
+    border-radius: 11px;
+    width: 130px;
+    height: 21px;
+    color: white;
+    margin: 0 -135px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.hiring:hover {
+    opacity: 1;
+}
+
+.btn {
+    background: #4B78EA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    width: 125px;
+    height: 60px;
+}
+.btns {
+    background: #4B78EA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 115px;
+    height: 48px;
+}
+.spam {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0 6px;
+    font-weight: lighter;
+}
+
+#email_input {
+    margin: 10px;
+    height: 46px;
+    width: 281px;
+    border: none;
+}
+
+.rs{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 62px;
+    gap: 1rem;
+}
+
+.main {
+    margin: 109px 68px;
+}
+
+#email_input, .btns {
+   justify-content: space-between;
+}
+
+.img1, .img2, .img3, .img4 {
+    height: 430px;
+}
+
+
+.imgs {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+    padding: 0 39px;
+    align-items: flex-end;
+}
+
+
+
+
+.img1{
+    transform: rotate(-42deg);
+    position: absolute;
+}
+.img2{
+    transform: rotate(-26deg);
+    position: absolute;
+}
+.img3{
+    transform: rotate(-14deg);
+    position: absolute;
+}
+
+.img4{
+    position: absolute;
+}
+
+.btn, .btns {
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.btns:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.help {
+    display: flex;
+    
+}
+ul{
+list-style: none;
+margin: 10px 33px;
+}
+
+.question {
+font-weight: lighter
+}
+
+.talk {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imghelp{
+    margin: 0 -46px;
+}
+
+.rs {
+    font-weight: lighter;
+}
