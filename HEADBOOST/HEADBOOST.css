@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+:root{
+    --violet: #d33bfd;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+header {
+    background: linear-gradient(#13181d, #20212e, #341b47);
+}
+
+header nav {
+    padding: 30px 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav h1{
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--violet);
+    cursor: pointer;
+}
+header nav .right {
+    display: flex;
+    align-items: center;
+
+}
+
+header nav .right p {
+    margin: 0 15px 0 0;
+    color: #ccc;
+}
+
+header nav .right p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+header nav .right button {
+    padding: 5px 15;
+    font-size: 16px;
+    background-color: inherit;
+    border: 1px solid var(--violet);
+    color: var(--violet);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
+}
+header nav .right button:hover{
+    color: inherit;
+    background-color: var(--violet);
+    }
+.presentation{
+    padding: 30px 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.presentation .product{
+    width: 100%;
+    flex-shrink: 3;
+}
+.presentation .product h1 {
+margin: 0;
+font-size: 4vw;
+width: 80%;
+}
+.presentation .product p {
+    font-weight: 300;
+    color: #e9e9e9;
+}
+.presentation .product button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+.presentation .imagepresentation img {
+width: 100%;
+
+}
+.first .product button {
+    background-color: var(--violet);
+    border: 1px solid var(--violet);
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+.first .product button:hover
+{
+    background-color: inherit;
+    color: var(--violet);
+}.first .product .small-image {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.first .product .small-image .small {
+    padding: 20px;
+    background-color: #33314d;
+    margin: 0 15px 15px 0;
+    border-radius: 20px;
+    transition: filter 0.5s;
+}
+.first .product .small-image .small:hover {
+    filter: brightness(50%);
+}
+.first .product .small-image .small img {
+    width: 120px;
+
+}
+
+.second {
+    margin: 0;
+    background-color: #13181d;
+}
+
+.second .product .new {
+    color: var(--violet);
+}
+
+.second .product button {
+    background-color: inherit;
+    border: 1px solid var(--violet);
+    color: var(--violet);
+    transition: background-color 0.5s, color 0.5s;
+}
+.second .product button:hover {
+    background-color: var(--violet);
+    color: white;
+    
+}
+
+
+footer {
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer h3
+{
+color: var(--violet);
+}
+footer p {
+    cursor: pointer;
+    color: #ccc;
+}
+footer p:hover{
+    color: white;
+}
+   @media screen and (max-width: 640px) {
+   header nav .right p{
+    display: none; 
+      } 
+      .presentation .product h1 {
+        font-size: 2em;
+
+      }
+      .presentation .imagepresentation {
+       display: none;
+      }
+
+      .first .product .small-image .small img {
+        width: 90px;
+
+      }
+
+      footer {
+        justify-content: start;
+    }
+    footer .column {
+        width: 80%;
+    }
+   }
